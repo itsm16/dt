@@ -254,6 +254,7 @@ body {
   padding: 15px 210px;
   justify-content: center;
   max-width: 1000px;
+  margin-bottom: 170px;
 }
 
 .card {
@@ -825,12 +826,12 @@ p {
   display: flex;
   justify-content: flex-end;
   align-self: end;
-  position: fixed; 
-  bottom: 0; 
-  right: 0; 
   z-index: 10;
   padding: 10px; 
+  position: absolute;
   background: transparent; 
+  grid-column: 3;
+  justify-self: end;
 }
 
 .bottom__container {
